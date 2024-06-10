@@ -1,0 +1,293 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 60rem, 160rem;
+}
+
+.section1 {
+    padding: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.section1 h1 {
+    font-size: 3.9rem;
+    width: 400px;
+    color: hsl(300, 43%, 22%);
+}
+
+.header {
+    margin-left: 200px;
+}
+
+.section1 p {
+    width: 25vw;
+    font-size: 20px;
+    color: hsl(300, 43%, 22%);
+    line-height: 30px;
+}
+
+.rating1,.rating2,.rating3 {
+    display: flex;
+    width: 100vw;
+}
+
+.rating1 img {
+    width: 20px;
+    padding: 5px;
+    height: 20px;
+}
+
+.rating2 img {
+    width: 20px;
+    padding: 5px;
+    height: 20px;
+}
+
+.rating3 img {
+    width: 20px;
+    padding: 5px;
+    height: 20px;
+}
+
+.rating p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.rating {
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.rating1 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 15px;
+    width: 30rem;
+    padding-left: 2rem;
+}
+
+.rating1 img,p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.rating1 p {
+    text-align: center;
+}
+
+.rating2 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 15px;
+    width: 30rem;
+    padding-left: 2rem;
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+}
+
+.rating2 img,p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.rating2 p {
+    text-align: center;
+}
+
+.rating3 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    border-radius: 15px;
+    width: 30rem;
+    padding-left: 2rem;
+    margin-top: 1.2rem;
+    margin-left: 6rem;
+}
+
+.rating3 img,p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.rating3 p {
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.profile1 {
+    width: 300px;
+    background-color:hsl(300, 43%, 22%);
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 18rem;
+    height: 10rem;
+}
+
+.profile1 p:nth-of-type(1) {
+    color: white;
+    font-weight: 500;
+}
+
+.profile1 p:nth-of-type(2) {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500
+}
+
+.profile1 img {
+    border-radius: 100px;
+    width: 3rem;
+}
+
+.profile1 q {
+    color: white;
+    line-height: 25px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.flex p:nth-of-type(2) {
+    margin-top: 25px;
+    margin-left: -85px;
+}
+
+.flex p {
+    margin-left: 2rem;
+}
+
+.profile2 {
+    width: 300px;
+    background-color:hsl(300, 43%, 22%);
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+.profile2 p:nth-of-type(1) {
+    color: white;
+    font-weight: 500;
+}
+
+.profile2 p:nth-of-type(2) {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500
+}
+
+.profile2 img {
+    border-radius: 100px;
+    width: 3rem;
+}
+
+.profile2 q {
+    color: white;
+    line-height: 25px;
+}
+
+.profile3 {
+    width: 300px;
+    background-color:hsl(300, 43%, 22%);
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 3.3rem;
+    height: 10rem;
+}
+
+.profile3 p:nth-of-type(1) {
+    color: white;
+    font-weight: 500;
+}
+
+.profile3 p:nth-of-type(2) {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500
+}
+
+.profile3 img {
+    border-radius: 100px;
+    width: 3rem;
+}
+
+.profile3 q {
+    color: white;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+        background-size: 35rem, 100rem;
+    }
+    .section1 {
+        flex-direction: column;
+    }
+    .header {
+        text-align: center;
+    }
+    .header h1 {
+        margin-left: -12rem;
+    }
+    .header p {
+        width: 75vw;
+        margin-left: -14rem;
+    }
+    .rating p {
+        margin-top: 3rem;
+        margin-left: -7rem;
+        width: 60vw;
+    }
+    .rating2 {
+        margin-left: 1px;
+    }
+    .rating3 {
+        margin-left: 1px;
+    }
+    .rating {
+        margin-left: -5.3rem;
+        padding-left: 0.9rem;
+    }
+    .section2 {
+        flex-direction: column;
+        width: 100rem;
+        margin-bottom: 2.5rem;
+    }
+    .profile1 {
+        margin-left: -1rem;
+        width: 22rem;
+        height: 12rem;
+        margin-top: -2rem;
+    }
+    .flex {
+        margin-bottom: 2rem;
+    }
+    .profile2 {
+        margin-left: -1rem;
+        width: 22rem;
+        height: 12rem;
+        margin-top: 1rem;
+    }
+    .profile3 {
+        margin-left: -1rem;
+        width: 22rem;
+        height: 12rem;
+        margin-top: 1rem;
+    }
+    q {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    
+}
